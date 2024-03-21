@@ -79,6 +79,11 @@ input:checked+.tab_class+.content_class {
    height: 100%;
 }
 
+iframe {
+   transform: scale(0.984375);
+   transform-origin: 0 0;
+ }
+ 
 h2 {
    margin: 1em 0;
    font-size: 140%;
