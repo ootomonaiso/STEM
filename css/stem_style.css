@@ -128,7 +128,7 @@ h1 {
    color: #036EB8;
 }
 
-.head {
+.top-list_wrap {
    width: 100%;
    border-bottom: 5px solid #C30D23;
    box-sizing: border-box;
@@ -647,7 +647,7 @@ li {
       float: left;
    }
 
-   .head {
+   .top-list_wrap {
       width: 100%;
       border-bottom: 1px solid #C9CACA;
       box-sizing: border-box;
