@@ -110,7 +110,7 @@
             const headerTemplateUrl = 'https://ask-web.github.io/STEM/header.html'; //githubpagesのリンクの形式で書くちゃんとしたリンクにしないとダメ
 
             fetch(headerTemplateUrl) //URLからヘッダーのテンプレ参照リンク先のヘッダーにはスタイル書かなくても表示側で指定してやれば動く
-                .then(response => response.text()) //レスポンスを受けたらテキスト変換
+                .then(response => response.text()) //レスポンスを受けたらテキストに書き出し
                 .then(html => { //htmlをヘッダーのコンテナに代入する
                     headerContainer.innerHTML = html;
                 })
