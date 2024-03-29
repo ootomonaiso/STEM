@@ -110,7 +110,7 @@
             const footerTemplateUrl = 'https://ask-web.github.io/STEM/footer.html'; //githubpagesのリンクの形式で書くちゃんとしたリンクにしないとダメ
 
             fetch(footerTemplateUrl) //URLからフッターのテンプレ参照リンク先のフッターにはスタイル書かなくても表示側で指定してやれば動く
-                .then(response => response.text()) //レスポンスを受けたらテキストに書き出し
+                .then(response => response.text()) //レスポンスを受けたらテキストに書き出しする
                 .then(html => { //htmlをヘッダーのコンテナに代入する
                     footerContainer.innerHTML = html;
                 })
