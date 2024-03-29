@@ -86,7 +86,7 @@
 					style="border-width:0" width="600" height="500" frameborder="0" scrolling="no"></iframe>
 		</div>
 
-	<div id="Footer-container"></div><!-- ここにフッターを挿入 -->
+	<div id="footer-container"></div><!-- ここにフッターを挿入 -->
 
 </boby>
 
@@ -106,7 +106,7 @@
     </script>
 	<script>
 		document.addEventListener('DOMContentLoaded', function() {
-            const footerContainer = document.getElementById('Footer-container'); //フッターを挿入するコンテナを取得(document.~(header~)が要素名となるためdiv id = カッコ内の要素名でほかのものでも動作可能)
+            const footerContainer = document.getElementById('footer-container'); //フッターを挿入するコンテナを取得(document.~(header~)が要素名となるためdiv id = カッコ内の要素名でほかのものでも動作可能)
             const footerTemplateUrl = 'https://ask-web.github.io/STEM/footer.html'; //githubpagesのリンクの形式で書くちゃんとしたリンクにしないとダメ
 
             fetch(footerTemplateUrl) //URLからフッターのテンプレ参照リンク先のフッターにはスタイル書かなくても表示側で指定してやれば動く
