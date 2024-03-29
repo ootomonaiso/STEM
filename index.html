@@ -106,7 +106,7 @@
 
 		document.addEventListener('DOMContentLoaded', function() {
             const footerContainer = document.getElementById('Footer-container'); //フッターを挿入するコンテナを取得(document.~(header~)が要素名となるためdiv id = カッコ内の要素名でほかのものでも動作可能)
-            const footerTemplateUrl = 'https://ask-web.github.io/STEM/header.html'; //githubpagesのリンクの形式で書くちゃんとしたリンクにしないとダメ
+            const footerTemplateUrl = 'https://ask-web.github.io/STEM/footer.html'; //githubpagesのリンクの形式で書くちゃんとしたリンクにしないとダメ
 
             fetch(footerTemplateUrl) //URLからフッターのテンプレ参照リンク先のフッターにはスタイル書かなくても表示側で指定してやれば動く
                 .then(response => response.text()) //レスポンスを受けたらテキストに書き出し
