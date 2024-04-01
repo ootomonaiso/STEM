@@ -732,7 +732,7 @@ li {
    }
 
    .sp-only {
-      display: block;
+      display: none;
    }
 
    .pc-only {
