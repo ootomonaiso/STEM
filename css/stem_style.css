@@ -560,7 +560,7 @@ li {
 }
 
 .sp-only {
-   display: block;
+   display: none;
 }
 
 .nav-item_child .emer {
@@ -683,7 +683,6 @@ li {
    .cp_navi {
       position: absolute;
       /* position: relative; */
-      overflow: hidden;
       width: 360px;
       height: 360px;
    }
@@ -732,7 +731,7 @@ li {
    }
 
    .sp-only {
-      display: none;
+      display: block;
    }
 
    .pc-only {
