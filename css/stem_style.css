@@ -560,7 +560,7 @@ li {
 }
 
 .sp-only {
-   display: none;
+   display: block;
 }
 
 .nav-item_child .emer {
