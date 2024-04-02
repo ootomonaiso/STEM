@@ -739,7 +739,7 @@ li {
    }
 }
 
-@media screen and (max-width:320px){.top-list li:first-child{width:30%;}
+@media screen and (max-width:480px){.top-list li:first-child{width:30%;}
 .top-list li:nth-child(2){width:23%;}
 .top-list li:last-child{width: 22%;}
 footer .footer_under-r li{margin-right:15px;}
@@ -842,7 +842,6 @@ body {
    -webkit-text-size-adjust: 100%;
    text-size-adjust: 100%;
    line-height: 1.7;
-   white-space: normal;
 }
 
 a {
