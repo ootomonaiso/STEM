@@ -748,7 +748,7 @@ footer .footer_under-r li{margin-right:15px;}
 }
 
 html {
-   overflow-y: scroll;
+   overflow: scroll;
 }
 
 html,
