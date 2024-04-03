@@ -683,6 +683,7 @@ li {
    .cp_navi {
       position: absolute;
       /* position: relative; */
+      overflow: hidden;
       width: 360px;
       height: 360px;
    }
@@ -738,13 +739,6 @@ li {
       display: none;
    }
 }
-
-.top-list li:nth-child(2){width:23%;}
-.top-list li:last-child{width: 22%;}
-footer .footer_under-r li{margin-right:15px;}
-	
-#main-visual li p img{width:70%;}
-
 
 html {
    overflow-y: scroll;
