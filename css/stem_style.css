@@ -739,13 +739,12 @@ li {
    }
 }
 
-@media screen and (max-width:480px){.top-list li:first-child{width:30%;}
 .top-list li:nth-child(2){width:23%;}
 .top-list li:last-child{width: 22%;}
 footer .footer_under-r li{margin-right:15px;}
 	
 #main-visual li p img{width:70%;}
-}
+
 
 html {
    overflow-y: scroll;
