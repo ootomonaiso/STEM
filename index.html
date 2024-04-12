@@ -99,7 +99,7 @@
 
             fetch(headerTemplateUrl) //URLからヘッダーのテンプレ参照リンク先のヘッダーにはスタイル書かなくても表示側で指定してやれば動く
                 .then(response => response.text()) //レスポンスを受けたらテキストに書き出し
-                .then(html => { //htmlをヘッダーのコンテナに代入する
+                .then(html => { //htmlをヘッダーのコンテナに代入する　
                     headerContainer.innerHTML = html;
                 })
                 .catch(error => console.error('Header template fetch error:', error)); //一応エラーログを書き出す機能
