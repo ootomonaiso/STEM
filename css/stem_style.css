@@ -101,6 +101,8 @@ input:checked+.tab_class+.content_class {
 iframe {
    transform: scale(0.984375);
    transform-origin: 0 0;
+   margin-left: auto;
+   margin-right: auto;
  }
  
 h2 {
