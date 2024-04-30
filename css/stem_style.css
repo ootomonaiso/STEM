@@ -93,6 +93,7 @@ input:checked+.tab_class+.content_class {
    height:60%;
    margin-left: auto;
    margin-right: auto;
+   
 }
 
 .responsive iframe {
