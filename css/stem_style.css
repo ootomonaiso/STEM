@@ -76,6 +76,8 @@ input:checked+.tab_class+.content_class {
 .responsive {
    width: 100%;
    aspect-ratio: 16/9;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .iframe-wrapper {
@@ -91,8 +93,6 @@ input:checked+.tab_class+.content_class {
    left:0;
    width:60%;
    height:60%;
-   margin-left: auto;
-   margin-right: auto;
    
 }
 
