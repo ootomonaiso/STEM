@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+body{
+    font-size: 14px;
+    font-family: "Hiragino Kaku Gothic ProN", "メイリオ", "ＭＳ Ｐゴシック", sans-serif;
+    color: #565656;
+    text-align: left;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    line-height: 1.7;
+}
+
+p {
+    font-family: '游ゴシック Medium', sans-serif;
+}
+
+a {
+    font-family: '游ゴシック Medium', sans-serif;
+}

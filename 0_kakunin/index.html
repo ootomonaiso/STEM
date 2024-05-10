@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="view port" connect="width=device-width,initial-scale=1">
+	<title> ホーム - 愛知県立愛知総合工科高等学校 STEM研究部</title>
+	<link rel="stylesheet" href="css/stem_style.css">
+</head>
+
+<!--SP用のheader-->
+<header class="sp-only">
+	<div class="container">
+		<div class="sp-nav_bar-wrap clearfix">
+			<h1>
+				<a href="index.html"><big>　愛知県立愛知総合工科高等学校 STEM研究部</big><br><small>　 Aichi High School of Techonology and Engineering STEM Research Club</small></a>
+			</h1>
+		</div>
+
+		<body>
+			<div class="cp_navi">
+				<div id="cp_sidenav" class="sidenav">
+					<a href="#" id="home"><small></small></a>
+					<a href="#" id="news"><small>活動方針</small></a>
+					<a href="#" id="contact"><small>学校案内</small></a>
+					<a href="#" id="about"><small>アクセス</small></a>
+				</div>
+			</div>
+
+
+			<div class="responsive" style="text-align: center;"><!-- ここにスタイルごり押し適用してますby ootomonaiso -->
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/87wwTj70jcw?si=BqBtxAytddLB5WeU"
+					title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen></iframe>
+			</div>
+	
+			<div class="text-center-text-left-wrap">
+				<ul class="text-center-text-left__child">
+					<h2 style="text-align: center;"><big><br><br>活動・イベントスケジュール</big></h2>
+					<iframe
+						src="https://calendar.google.com/calendar/embed?height=500&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FTokyo&title=STEM%E7%A0%94%E7%A9%B6%E9%83%A8%E4%BA%88%E5%AE%9A%E8%A1%A8&src=YXNrX3N0ZW1jbHViQG1lcnVhZG8udWs&color=%23039BE5"
+						style="border-width:0" width="600" height="500" frameborder="0" scrolling="no"></iframe>
+	
+					<h3 style="text-align: center;"><br><br><u>愛知総合工科高等学校・STEM研究部サイトマップ</u></h3>
+					
+					<nav>
+						<ul>
+							<li style="text-align: center;"><a href="stem_gaiyou.html">部活動案内</a> | <a
+									href="stem_hoshin.html">活動方針・目標</a> | <a href="stem_school.html">学校について</a></li>
+							<li style="text-align: center;"><a href="stem_news.html">STEM-NEWS</a> | <a
+									href="stem_access.html">アクセス</a> | <a href="stem_achievements.html">活動実績</a></li>
+							<li style="text-align: center;"><a href="https://blog.stemask.com">STEMASK Blog</a> | <a
+									href="stem_question.html">よくある質問</a> | <a href="stem_join.html">入部希望（進学希望）の方へ</a></li>
+							<li style="text-align: center;"><a href="stem_member.html">部員の方へ</a> | <a
+									href="stem_contact.html">お問い合わせ</a></li>
+							<p>　</p>
+							<p style="text-align: center;">本校ホームページは<a href="stem_join.html"><u>こちら</u></a></p>
+							<p>　</p>
+						</ul>
+					</nav>
+			</div>
+			</boby>
+
+</header>
+
+<body id="wrapper">
+	<main>
+	<!--PC用のheader-->
+	<div id="header-container"></div><!-- ここにヘッダーを挿入 -->
+
+		<div style="text-align: center;">
+			<img src="pic/school/STEM-TOP.png" width="750" height="600">
+		</div>
+			
+		<br>
+
+		<div class="korededoudesuka" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; text-align: center; margin: 20px;"> <!-- 外部余白 -->
+			<iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+				src="https://www.youtube.com/embed/87wwTj70jcw?si=BqBtxAytddLB5WeU"
+				title="YouTube video player" frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				allowfullscreen></iframe>
+		</div>
+				
+
+		
+		<div class="text-center-text-left-wrap">
+			<ul class="text-center-text-left__child">
+				<h2 style="text-align: center;"><big><br>活動・イベントスケジュール</big></h2>
+				<iframe
+					src="https://calendar.google.com/calendar/embed?height=500&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FTokyo&title=STEM%E7%A0%94%E7%A9%B6%E9%83%A8%E4%BA%88%E5%AE%9A%E8%A1%A8&src=YXNrX3N0ZW1jbHViQG1lcnVhZG8udWs&color=%23039BE5"
+					style="border-width:0" width="600" height="500" frameborder="0" scrolling="no"></iframe>
+		</div>
+
+	<div id="footer-container"></div><!-- ここにフッターを挿入 -->
+	</main>
+</boby>
+
+    <!-- ヘッダー・フッター読み込み用 -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const headerContainer = document.getElementById('header-container'); //ヘッダーを挿入するコンテナを取得(document.~(header~)が要素名となるためdiv id = カッコ内の要素名でほかのものでも動作可能)
+            const headerTemplateUrl = 'https://ask-web.github.io/STEM/header.html'; //githubpagesのリンクの形式で書くちゃんとしたリンクにしないとダメ
+
+            fetch(headerTemplateUrl) //URLからヘッダーのテンプレ参照リンク先のヘッダーにはスタイル書かなくても表示側で指定してやれば動く
+                .then(response => response.text()) //レスポンスを受けたらテキストに書き出し
+                .then(html => { //htmlをヘッダーのコンテナに代入する　
+                    headerContainer.innerHTML = html;
+                })
+                .catch(error => console.error('Header template fetch error:', error)); //一応エラーログを書き出す機能
+        });
+    </script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+            const footerContainer = document.getElementById('footer-container'); //フッターを挿入するコンテナを取得(document.~(header~)が要素名となるためdiv id = カッコ内の要素名でほかのものでも動作可能)
+            const footerTemplateUrl = 'https://ask-web.github.io/STEM/footer.html'; //githubpagesのリンクの形式で書くちゃんとしたリンクにしないとダメ
+
+            fetch(footerTemplateUrl) //URLからフッターのテンプレ参照リンク先のフッターにはスタイル書かなくても表示側で指定してやれば動く
+                .then(response => response.text()) //レスポンスを受けたらテキストに書き出しする
+                .then(html => { //htmlをヘッダーのコンテナに代入する
+                    footerContainer.innerHTML = html;
+                })
+                .catch(error => console.error('Footer template fetch error:', error)); //一応エラーログを書き出す機能
+        });
+    </script>
+</html>

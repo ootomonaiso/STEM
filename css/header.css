@@ -1,0 +1,34 @@
+/*ヘッダー用のCSS*/
+.header {
+    text-align: left; /* 左揃え */
+    font-size: 1.5em; /* 文字サイズを調整 */
+    padding: 10px; /* 余白を追加 */
+    background-color: #f0f0f0; /* ヘッダーの背景色 */
+}
+
+/* ルビのスタイル設定 */
+ruby rt {
+    font-size: 0.8em; /* ルビのサイズを調整 */
+}
+
+/* 小さなテキストのスタイル設定 */
+small {
+    font-size: 0.8em;
+}
+
+/*リンクパス列挙用*/
+.nav {
+    display: flex;
+}
+
+/*メニューのリンク後で変える*/
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.button{
+    float: left;
+}
